@@ -4,11 +4,15 @@
 }
 
 .header{
+    background-color: #1f2937;
+
     display:flex;
+
 }
 
 .section1{
     display:flex;
+    background-color: #1f2937;
 }
 
 .section2{

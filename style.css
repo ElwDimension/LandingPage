@@ -34,10 +34,17 @@ a{
 .section1{
     display:flex;
     background-color: #1f2937;
-    align-items:center;
     color:#e5e7eb;
     padding:50px 300px;
     justify-content:space-between;
+}
+
+.info1{
+    display:flex;
+    flex-flow:column;
+    gap:20px;
+    width:600px;
+    height:300px
 }
 
 .title1{
@@ -47,15 +54,20 @@ a{
 }
 
 .signup{
-    display:flex;
     background-color:#3882F6;
     color:#e5e7eb;
+    border-radius: 5px;
+    padding:5px 25px;
+    font-weight:bold;
+    border-color:#3882F6;
+    border-style:solid;
+    max-width:120px;
 }
 
 .astronaut{
     display:flex;
     width:600px;
-    height:300px;;
+    height:300px;
 }
 
 .section2{
@@ -63,7 +75,7 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding:50px 300px 100px;
+    padding:80px 300px 120px;
 }
 
 .title2{
@@ -90,6 +102,7 @@ a{
     max-height:150px;
     max-width:150px;
     margin-bottom:15px;
+    border-radius: 25px;
 }
 
 .section3{
@@ -97,7 +110,7 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding:50px 300px 100px;
+    padding:100px 500px ;
     background-color:#e5e7eb;
     
 }
@@ -116,18 +129,49 @@ a{
     align-self:flex-end;
     font-weight:bolder;
     color:#1f2937;
+    margin-top:50px;
 }
 
 .section4{
     display:flex;
-    padding:50px 300px;
+    padding:100px 300px;
     color:#1f2937;
-    
+    flex-direction:column;
+}
 
+.bubble{
+    background-color:#3882F6;
+    display:flex;
+    border-radius: 10px;
+    padding:50px 300px;
+    justify-content:space-between;
+}
+
+.title4{
+    color:#F9FAF8;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.info4{
+    color:#e5e7eb;
+}
+
+.signup4{
+    background-color:#3882F6;
+    color:#e5e7eb;
+    border-color:#e5e7eb;
+    border-style:solid;
+    border-radius: 5px;
+    padding:5px 25px;
+    font-weight:bold;
 }
 
 .footer{
     display:flex;
-    padding:50px 300px;
-
+    padding:50px;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    align-items:flex-end;
+    justify-content:center;
 }
